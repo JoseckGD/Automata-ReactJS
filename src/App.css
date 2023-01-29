@@ -1,0 +1,69 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #242424;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.App div {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+input {
+  width: 80%;
+  padding: 1rem;
+  color: ghostwhite;
+  border-radius: 8px;
+  border: 2px solid #393939;
+  padding: 1em 2em;
+  font-size: 1em;
+  letter-spacing: 0.1rem;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  cursor: text;
+  box-shadow: 0 0 10px 5px #1a1a1a;
+}
+
+button {
+  color: ghostwhite;
+  border-radius: 8px;
+  border: 2px solid #393939;
+  padding: 1em 2em;
+  font-size: 1em;
+  letter-spacing: 0.1rem;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 0 0 20px 5px #1a1a1a;
+}
+button:hover,
+input:hover {
+  border-color: #646cff;
+}
+
+button:active {
+  background-color: #646cff;
+}
+
+input:active,
+input:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+.Analizar {
+  background-color: #646cff;
+  border: 2px solid #393939;
+}
+
+.Analizar:hover {
+  border-color: #1a1a1a;
+}
